@@ -139,6 +139,9 @@ span.required {
     font-size: 2rem;
     margin: 5rem 10rem 5rem 5rem;
 }
+.contact-button-l:hover {
+    box-shadow: -0.5rem 0.5rem black;
+}
 .contact-button-r {
     border-radius: 10px;
     border-width: 0.25rem;
@@ -147,13 +150,16 @@ span.required {
     width: 16rem;
     border-color: black;
     padding: 2rem;
-    color: black;
-    background-color:	red;
+    color: white;
+    background-color:	#C90000;
     text-align: center;
     cursor: pointer;
     text-decoration:	none;
     font-size: 2rem; 
     margin: 5rem 5rem 5rem 10rem;
+}
+.contact-button-r:hover {
+    box-shadow: -0.5rem 0.5rem black;
 }
 .heading {
     text-align: center;
