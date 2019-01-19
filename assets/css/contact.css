@@ -1,0 +1,481 @@
+.contact-pg {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.navbar	{
+	width:100%;
+    z-index: 1;
+    padding-top: 0.5rem;
+}
+li.menu	{
+	font-size:	1rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	border-radius: 0.25rem;
+    border-width: 0.1rem;
+    padding: 0.5rem 0.5rem;
+    border-color: white;
+    flex-basis: 15%;
+}
+li.menu a	{
+	display:	block;
+	color: white;
+	text-align:	center;
+	padding:	1rem 0.75rem;
+	text-decoration:	none;
+}
+#menu-feature a {
+    font-size: 1.25rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.25rem;
+}
+#menu-feature a:hover {
+    background-color: inherit;
+}
+li a:hover	{
+	-webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    font-size: 1.25rem;
+	transition: font-size 0.2s ease-in-out;
+}
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+    justify-content: center;
+    flex-basis: 100%;
+    margin-top: 0rem;
+    padding-bottom: 4rem;
+}
+.contact-frame {
+    background-color: white;
+    flex: 1;
+    margin: 4% 4% 0 4%;
+    display: flex;
+    flex-direction: column;   
+    padding-bottom: 4rem;
+}
+.contact-fields, .contact-buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 0% 4% 0 4%;
+}
+.contact-buttons {
+    justify-content: center;
+}
+.contact-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 4% 0 4%;
+}
+.contact-label {
+    color: black;
+    text-align: center;
+    align-self: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    width: 20%;
+}
+.contact-detail-label {
+    color: black;
+    text-align: center;
+    align-self: center;
+    padding: 0rem 2rem 2rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+.contact-detail-area {
+    padding: 2rem;
+    align-self: center;
+    margin: 0 2rem 0 2rem;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    border-width: 0.2rem;
+    border-color: black;
+    height: 5rem;
+}
+.contact-input {
+    height: 2rem;
+    align-self: center;
+    width: 20%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    border-width: 0.2rem;
+    padding: 0.5rem;
+    border-color: black;
+}
+.contact-select {
+    height: 3.5rem;
+    align-self: center;
+    width: 17.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    border-width: 0.2rem;
+    padding: 0.5rem;
+    border-color: black;
+}
+span.required {
+    color: red;
+}
+.contact-button-l {    
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 16rem;
+    border-width: 0.2rem;
+    border-color: black;
+    padding: 2rem;
+    color: white;
+    background-color:	#18BC9C;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:	none;
+    font-size: 2rem;
+    margin: 5rem 10rem 5rem 5rem;
+}
+.contact-button-r {
+    border-radius: 10px;
+    border-width: 0.25rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 16rem;
+    border-color: black;
+    padding: 2rem;
+    color: black;
+    background-color:	red;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:	none;
+    font-size: 2rem; 
+    margin: 5rem 5rem 5rem 10rem;
+}
+.heading {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 2rem 2rem 0 2rem;
+}
+.sub-heading {
+    font-size: 1.25rem;
+    text-align: center;
+}
+.social {
+    float: left;
+    margin-left: 15%;
+    align-self: flex-end;
+}
+.social:after {
+    margin-left: 0%;
+}
+
+@media screen and (min-width: 909px) and (max-width: 1150px) {
+    li.menu {
+        padding: 0.3rem;
+        font-size: 0.85rem;
+    }
+    li a:hover {
+        font-size: 1rem;
+    }
+    #menu-feature a {
+        font-size: 1rem;
+    }
+    .social {
+        margin-left: 1.5rem;
+    }
+    .contact-label {
+        padding: 2%;
+        width: 20%;
+    }
+    .contact-input {
+        width: 20%;
+    }
+    .contact-select {
+        width: 22%;
+        padding: 0.5rem;
+    }
+    .contact-detail-label {
+        margin-bottom: 0;
+    }
+    .contact-button-l {
+        margin-right: 5rem;
+    }
+    .contact-button-r {
+        margin-left: 5rem;
+    }
+}
+@media only screen and (min-width: 799px) and (max-width: 908px) {
+    li.menu {
+        padding: 0.6rem;
+        font-size: 0.7rem;
+        flex-basis: 15%;
+    }
+    li a:hover {
+        font-size: 0.8rem;
+    }
+    #menu-feature a {
+        font-size: 0.8rem;
+        border-width: 0.2rem;
+    }
+    .social {
+        margin-left: 0.2rem;
+    }
+    .hero-feature {
+        font-size: 2rem;
+        margin-top: 0;
+    }
+    .contact-label {
+        padding: 2%;
+        width: 20%;
+        font-size: 1.2rem;
+    }
+    .contact-input {
+        width: 20%;
+    }
+    .contact-select {
+        width: 23%;
+        padding: 0.5rem;
+    }
+    .contact-detail-label {
+        margin-bottom: 0;
+        font-size: 1.2rem;
+    }
+    .contact-button-l {
+        margin-right: 5rem;
+        font-size: 1.5rem;
+    }
+    .contact-button-r {
+        margin-left: 5rem;
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (min-width: 699px) and (max-width: 799px) {
+    li.menu {
+        padding: 0.5rem;
+        font-size: 0.6rem;
+        flex-basis: 15%;
+    }
+    li a:hover {
+        font-size: 0.65rem;
+    }
+    #menu-feature a {
+        font-size: 0.65rem;
+        border-width: 0.2rem;
+    }
+    .social {
+        margin-left: 0.2rem;
+    }
+    .contact-label {
+        padding: 1%;
+        width: 20%;
+        font-size: 1rem;
+    }
+    .contact-input {
+        width: 22%;
+    }
+    .contact-select {
+        width: 26%;
+        padding: 0.3rem;
+    }
+    .contact-detail-label {
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+    .contact-button-l {
+        margin-right: 5rem;
+        font-size: 1.2rem;
+    }
+    .contact-button-r {
+        margin-left: 5rem;
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (min-width: 549px) and (max-width: 699px) {
+    li.menu {
+        padding: 0.15rem;
+        font-size: 0.4rem;
+        flex-basis: 15%;
+    }
+    li a:hover {
+        font-size: 0.5rem;
+    }
+    #menu-feature a {
+        font-size: 0.5rem;
+        border-width: 0.075rem;
+    }
+    #menu-feature a:hover {
+        border-width: 0rem;
+    }
+    .social {
+        margin-left: 0rem;
+    }
+    .contact-fields {
+        padding: 0;
+    }
+    .contact-label {
+        padding: 1%;
+        width: 20%;
+        font-size: 0.8rem;
+    }
+    .contact-input {
+        width: 22%;
+        font-size: 0.8rem;
+    }
+    .contact-select {
+        width: 26%;
+        padding: 0.3rem;
+        font-size: 0.8rem;
+    }
+    .contact-detail-label {
+        margin-bottom: 0;
+        font-size: 0.8rem;
+    }
+    .contact-button-l {
+        margin-right: 3rem;
+        font-size: 1rem;
+    }
+    .contact-button-r {
+        margin-left: 3rem;
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 549px) {
+    li.menu {
+        padding: 0.15rem;
+        font-size: 0.3rem;
+        flex-basis: 15%;
+    }
+    li a:hover {
+        font-size: 0.35rem;
+    }
+    li.menu a {
+        padding: 0.5rem;
+    }
+    #menu-feature a {
+        font-size: 0.35rem;
+        border-width: 0.05rem;
+    }
+    .social {
+        margin-left: 0rem;
+    }
+    .contact-fields {
+        padding: 0;
+        flex-direction: column;
+    }
+    .contact-label {
+        padding: 1%;
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .contact-input {
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    .contact-select {
+        width: 85%;
+        padding: 0.3rem;
+        font-size: 0.8rem;
+    }
+    .contact-detail-label {
+        margin-bottom: 0;
+        font-size: 0.8rem;
+    }
+    .contact-detail-area {
+        margin: 0;
+        width: 85%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .contact-buttons {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact-button-l {
+        margin: 1rem auto;
+        font-size: 1rem;
+        padding: 1rem;
+        width: 90%;
+    }
+    .contact-button-r {
+        margin: 2rem auto;
+        font-size: 1rem;
+        padding: 1rem;
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 200px) and (max-width: 425px) {
+    li.menu {
+        padding: 0.2rem;
+        font-size: 0.1rem;
+        flex-basis: 16%;
+    }
+    li a:hover {
+        font-size: 0.35rem;
+    }
+    li.menu a {
+        padding: 0.2rem;
+    }
+    #menu-feature a {
+        font-size: 0.35rem;
+        border-width: 0rem;
+    }
+    .social {
+        margin-left: 0rem;
+    }
+    .contact-fields {
+        padding: 0;
+        flex-direction: column;
+    }
+    .contact-label {
+        padding: 1%;
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .contact-input {
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    .contact-select {
+        width: 85%;
+        padding: 0.3rem;
+        font-size: 0.8rem;
+    }
+    .contact-detail-label {
+        margin-bottom: 0;
+        font-size: 0.8rem;
+    }
+    .contact-detail-area {
+        margin: 0;
+        width: 85%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .contact-buttons {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact-button-l {
+        margin: 1rem auto;
+        font-size: 1rem;
+        padding: 1rem;
+        width: 90%;
+    }
+    .contact-button-r {
+        margin: 2rem auto;
+        font-size: 1rem;
+        padding: 1rem;
+        width: 90%;
+    }
+    .sub-heading {
+        font-size: 0.8rem;
+    }
+    .heading-text {
+        font-size: 1.5rem;
+    }
+}
