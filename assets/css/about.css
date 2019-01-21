@@ -1,7 +1,12 @@
 .about-pg {
     height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .navbar	{
 	width:100%;
@@ -16,7 +21,8 @@ li.menu	{
     border-width: 0.1rem;
     padding: 0.5rem 0.5rem;
     border-color: white;
-    flex-basis: 15%;
+    -ms-flex-preferred-size: 15%;
+        flex-basis: 15%;
 }
 li.menu a	{
 	display:	block;
@@ -36,34 +42,59 @@ li.menu a	{
 }
 li a:hover	{
 	-webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     font-size: 1.25rem;
+	-webkit-transition: font-size 0.2s ease-in-out;
+	-o-transition: font-size 0.2s ease-in-out;
 	transition: font-size 0.2s ease-in-out;
 }
 .about-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: inherit;
-    justify-content: center;
-    flex-basis: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     margin-top: 0rem;
     padding-bottom: 4rem;
 }
 .about-frame {
     background-color: white;
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     margin: 4% 4% 0 4%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;   
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;   
     padding-bottom: 4rem;
 }
 .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     height: auto;
     margin: 0 6% 0 6%;
     padding: 1rem 2rem 1rem 2rem;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
@@ -76,7 +107,9 @@ li a:hover	{
     color: white;
 }
 .about-details {
-    flex: 3;
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
     padding-bottom: 1rem;
 }
 .about-link {
@@ -104,7 +137,8 @@ li a:hover	{
 .social {
     float: left;
     margin-left: 15%;
-    align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
 }
 .social:after {
     margin-left: 0%;
@@ -129,7 +163,8 @@ li a:hover	{
     li.menu {
         padding: 0.6rem;
         font-size: 0.7rem;
-        flex-basis: 15%;
+        -ms-flex-preferred-size: 15%;
+            flex-basis: 15%;
     }
     li a:hover {
         font-size: 0.8rem;
@@ -150,7 +185,8 @@ li a:hover	{
     li.menu {
         padding: 0.5rem;
         font-size: 0.6rem;
-        flex-basis: 15%;
+        -ms-flex-preferred-size: 15%;
+            flex-basis: 15%;
     }
     li a:hover {
         font-size: 0.65rem;
@@ -167,7 +203,8 @@ li a:hover	{
     li.menu {
         padding: 0.15rem;
         font-size: 0.4rem;
-        flex-basis: 15%;
+        -ms-flex-preferred-size: 15%;
+            flex-basis: 15%;
     }
     li a:hover {
         font-size: 0.5rem;
@@ -190,7 +227,8 @@ li a:hover	{
     li.menu {
         padding: 0.15rem;
         font-size: 0.3rem;
-        flex-basis: 15%;
+        -ms-flex-preferred-size: 15%;
+            flex-basis: 15%;
     }
     li a:hover {
         font-size: 0.35rem;
@@ -213,7 +251,8 @@ li a:hover	{
     li.menu {
         padding: 0.2rem;
         font-size: 0.1rem;
-        flex-basis: 16%;
+        -ms-flex-preferred-size: 16%;
+            flex-basis: 16%;
     }
     li a:hover {
         font-size: 0.35rem;

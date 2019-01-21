@@ -1,7 +1,12 @@
 .contact-pg {
     height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .navbar	{
 	width:100%;
@@ -16,7 +21,8 @@ li.menu	{
     border-width: 0.1rem;
     padding: 0.5rem 0.5rem;
     border-color: white;
-    flex-basis: 15%;
+    -ms-flex-preferred-size: 15%;
+        flex-basis: 15%;
 }
 li.menu a	{
 	display:	block;
@@ -36,44 +42,76 @@ li.menu a	{
 }
 li a:hover	{
 	-webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     font-size: 1.25rem;
+	-webkit-transition: font-size 0.2s ease-in-out;
+	-o-transition: font-size 0.2s ease-in-out;
 	transition: font-size 0.2s ease-in-out;
 }
 .contact-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: inherit;
-    justify-content: center;
-    flex-basis: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     margin-top: 0rem;
     padding-bottom: 4rem;
 }
 .contact-frame {
     background-color: white;
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     margin: 4% 4% 0 4%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;   
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;   
     padding-bottom: 4rem;
 }
 .contact-fields, .contact-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     padding: 0% 4% 0 4%;
 }
 .contact-buttons {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .contact-detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 0% 4% 0 4%;
 }
 .contact-label {
     color: black;
     text-align: center;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     padding: 2rem;
     font-size: 1.5rem;
     font-weight: bold;
@@ -83,7 +121,9 @@ li a:hover	{
 .contact-detail-label {
     color: black;
     text-align: center;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     padding: 0rem 2rem 2rem 2rem;
     font-size: 1.5rem;
     font-weight: bold;
@@ -92,7 +132,9 @@ li a:hover	{
 }
 .contact-detail-area {
     padding: 2rem;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     margin: 0 2rem 0 2rem;
     width: 80%;
     font-family: 'Roboto', sans-serif;
@@ -102,7 +144,9 @@ li a:hover	{
 }
 .contact-input {
     height: 2rem;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     width: 20%;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
@@ -112,7 +156,9 @@ li a:hover	{
 }
 .contact-select {
     height: 3.5rem;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     width: 17.6rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
@@ -140,7 +186,14 @@ span.required {
     margin: 5rem 10rem 5rem 5rem;
 }
 .contact-button-l:hover {
-    box-shadow: -0.5rem 0.5rem black;
+    -webkit-box-shadow: -0.25rem 0.25rem black;
+            box-shadow: -0.25rem 0.25rem black;
+    -webkit-transform-origin: bottom right 0.25rem;
+        -ms-transform-origin: bottom right 0.25rem;
+            transform-origin: bottom right 0.25rem;
+    -webkit-transform: translate(0.25rem, -0.25rem);
+        -ms-transform: translate(0.25rem, -0.25rem);
+            transform: translate(0.25rem, -0.25rem);
 }
 .contact-button-r {
     border-radius: 10px;
@@ -159,7 +212,14 @@ span.required {
     margin: 5rem 5rem 5rem 10rem;
 }
 .contact-button-r:hover {
-    box-shadow: -0.5rem 0.5rem black;
+    -webkit-box-shadow: -0.25rem 0.25rem black;
+            box-shadow: -0.25rem 0.25rem black;
+    -webkit-transform-origin: bottom left 0.5rem;
+        -ms-transform-origin: bottom left 0.5rem;
+            transform-origin: bottom left 0.5rem;
+    -webkit-transform: translate(0.25rem, -0.25rem);
+        -ms-transform: translate(0.25rem, -0.25rem);
+            transform: translate(0.25rem, -0.25rem);
 }
 .heading {
     text-align: center;
@@ -175,7 +235,8 @@ span.required {
 .social {
     float: left;
     margin-left: 15%;
-    align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
 }
 .social:after {
     margin-left: 0%;
@@ -220,7 +281,8 @@ span.required {
     li.menu {
         padding: 0.6rem;
         font-size: 0.7rem;
-        flex-basis: 15%;
+        -ms-flex-preferred-size: 15%;
+            flex-basis: 15%;
     }
     li a:hover {
         font-size: 0.8rem;
@@ -265,7 +327,8 @@ span.required {
     li.menu {
         padding: 0.5rem;
         font-size: 0.6rem;
-        flex-basis: 15%;
+        -ms-flex-preferred-size: 15%;
+            flex-basis: 15%;
     }
     li a:hover {
         font-size: 0.65rem;
@@ -306,7 +369,8 @@ span.required {
     li.menu {
         padding: 0.15rem;
         font-size: 0.4rem;
-        flex-basis: 15%;
+        -ms-flex-preferred-size: 15%;
+            flex-basis: 15%;
     }
     li a:hover {
         font-size: 0.5rem;
@@ -355,7 +419,8 @@ span.required {
     li.menu {
         padding: 0.15rem;
         font-size: 0.3rem;
-        flex-basis: 15%;
+        -ms-flex-preferred-size: 15%;
+            flex-basis: 15%;
     }
     li a:hover {
         font-size: 0.35rem;
@@ -372,7 +437,10 @@ span.required {
     }
     .contact-fields {
         padding: 0;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .contact-label {
         padding: 1%;
@@ -399,8 +467,13 @@ span.required {
         margin-bottom: 1rem;
     }
     .contact-buttons {
-        flex-direction: column;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .contact-button-l {
         margin: 1rem auto;
@@ -419,7 +492,8 @@ span.required {
     li.menu {
         padding: 0.2rem;
         font-size: 0.1rem;
-        flex-basis: 16%;
+        -ms-flex-preferred-size: 16%;
+            flex-basis: 16%;
     }
     li a:hover {
         font-size: 0.35rem;
@@ -436,7 +510,10 @@ span.required {
     }
     .contact-fields {
         padding: 0;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .contact-label {
         padding: 1%;
@@ -463,8 +540,13 @@ span.required {
         margin-bottom: 1rem;
     }
     .contact-buttons {
-        flex-direction: column;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .contact-button-l {
         margin: 1rem auto;
