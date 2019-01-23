@@ -80,7 +80,6 @@ li a:hover	{
         -ms-flex-direction: column;
             flex-direction: column;   
     padding-bottom: 4rem;
-    max-width: 100%;
     height: auto;
 }
 .about {
