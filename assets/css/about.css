@@ -80,6 +80,7 @@ li a:hover	{
         -ms-flex-direction: column;
             flex-direction: column;   
     padding-bottom: 4rem;
+    height: auto;
 }
 .about {
     display: -webkit-box;
