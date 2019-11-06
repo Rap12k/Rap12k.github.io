@@ -123,6 +123,9 @@ li a:hover	{
 #tourism {
     padding-top: 3rem;
 }
+#Crimson {
+    padding-top: 5rem;
+}
 .work-details {
     -webkit-box-flex: 3;
         -ms-flex: 3;
@@ -183,6 +186,9 @@ li a:hover	{
     #BTC {
         margin-top: 4rem;
     }
+    #Crimson {
+        padding-top: 2rem;
+    }
     .work-details {
         -webkit-box-flex: 2;
             -ms-flex: 2;
@@ -223,6 +229,9 @@ li a:hover	{
     }
     #BTC {
         margin-top: 3rem;
+    }
+    #Crimson {
+        padding-top: 2rem;
     }
     .work-details {
         -webkit-box-flex: 2;
@@ -271,6 +280,9 @@ li a:hover	{
         font-size: 0.8rem;
         padding: 0;
     }
+    #Crimson {
+        padding-top: 2rem;
+    }
     .work-details {
         -webkit-box-flex: 2;
             -ms-flex: 2;
@@ -315,10 +327,16 @@ li a:hover	{
     #tourism {
         margin-top: 3.5rem;
         padding: 0;
+        padding: 0 1rem;
     }
     #BTC {
         margin-top: 3rem;
         font-size: 0.5rem;
+        padding: 0 1rem;
+    }
+    #Crimson {
+        padding: 0;
+        margin-top: 3rem;
         padding: 0 1rem;
     }
     .work-details {
@@ -330,7 +348,7 @@ li a:hover	{
         font-size: 0.8rem;
     }
     .detail-text {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 }
 @media only screen and (min-width: 425px) and (max-width: 550px) {
@@ -373,6 +391,11 @@ li a:hover	{
         font-size: 0.6rem;
         padding: 0.5rem;
     }
+    #Crimson {
+        margin-top: 0.5rem;
+        font-size: 0.6rem;
+        padding: 0.5rem;
+    }
     .work-details {
         -webkit-box-flex: 2;
             -ms-flex: 2;
@@ -395,7 +418,7 @@ li a:hover	{
         font-size: 0.8rem;
     }
     .detail-text {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 }
 @media only screen and (min-width: 200px) and (max-width: 425px) {
@@ -434,6 +457,11 @@ li a:hover	{
         font-size: 0.6rem;
     }
     #BTC {
+        margin-top: 0.25rem;
+        font-size: 0.5rem;
+        padding: 0.25rem;
+    }
+    #Crimson {
         margin-top: 0.25rem;
         font-size: 0.5rem;
         padding: 0.25rem;
